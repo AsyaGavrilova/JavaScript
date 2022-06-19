@@ -56,7 +56,7 @@ let item_6_type;
 item_6 = 15;
 
 // 20. Присвоить переменной item_6_type тип переменной item_6
-item_6_type = "Number";
+item_6_type = typeof(item_6);
 
 // 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——
 console.log("item_6 == ", typeof (item_6), "item_6_type == ", typeof (item_6_type));
@@ -68,7 +68,7 @@ let item_7 = String(item_6);
 let item_7_type;
 
 // 24. Присвоить переменной item_7_type тип переменной item_7
-item_7_type = "String";
+item_7_type = typeof(item_7);
 
 // 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
 console.log("item_7 == ", typeof (item_6_type), "item_7_type == ", typeof (item_7_type));
