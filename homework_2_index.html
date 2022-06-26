@@ -16,7 +16,7 @@
     let age_3 = 60;
 
     const checkAge = (age_1) => {
-        if (Number(age_1)) {
+        if (age_1 && !isNaN(age_1)) {
             if (age_1 < age_2) {
                 alert("You don’t have access cause your age is " + age_1 + " It’s less then ");
             } else if (age_1 >= age_2 && age_1 < age_3) {
