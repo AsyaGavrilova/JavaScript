@@ -3,12 +3,12 @@
 // 1 способ:
 for (i = 1; i <= 10; i++) {
     console.log(2 ** i)
-};
+}
 
 // 2 способ:
 for (i = 1; i <= 10; i++) {
     console.log(Math.pow(2, i))
-};
+}
 
 
 //1*. Преобразовать 1 задачу в функцию, принимающую на вход степень, в которую будет возводиться число 2.
@@ -16,10 +16,10 @@ for (i = 1; i <= 10; i++) {
 const exponentiate = (deg) => {
     for (i = 1; i <= deg; i++) {
     console.log(2 ** i)
-}
+    }
 }
 
-exponentiate(5)
+exponentiate(5);
 
 
 
@@ -82,6 +82,6 @@ const isPalindrom = (word) => {
     }
 }
 
-isPalindrom('abba')
-isPalindrom('Abba')
-isPalindrom('Beyonce')
+isPalindrom('abba');
+isPalindrom('Abba');
+isPalindrom('Beyonce');
