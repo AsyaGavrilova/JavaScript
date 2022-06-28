@@ -67,8 +67,8 @@ const checkAge = (age_1) => {
     }
 }
 
-checkAge('2')
-checkAge('five5')
-checkAge(28)
-checkAge('0')
-checkAge('')
+checkAge('2');
+checkAge('five5');
+checkAge(28);
+checkAge('0');
+checkAge('');
